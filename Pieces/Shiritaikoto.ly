@@ -30,7 +30,9 @@
 	<d bes>8. <d bes>16~ <d bes>8 <cis a>8~ <cis a>4 r8 cis16 d |
 
 	\key a \major
-	<e a,>8. 
+	<e a,>8. <a e>16~ <a e>8 <gis e>8~ <gis e> <a e>~ <a e> <a d,>~ |
+	<a d,>8 gis fis e~ e4 r8 cis16 d |
+	e8. <b' e,>16~ <b e,>8 <a e>~ <a e> <b e,>~ <b e,> <b fis cis>~ |
 	
 
 	\bar "|."
