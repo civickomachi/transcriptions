@@ -41,7 +41,7 @@
 	g4 fis e dis |
 	
 	\key e \minor
-	g''16 fis d b g b d fis g fis d b g b d fis |
+	g'16 fis d b g b d fis g fis d b g b d fis |
 	g16 fis d b g b d fis g fis d b g b d fis |
 	g4 c, b a |
 	g4 fis e d |
@@ -100,7 +100,67 @@
 
 	<es bes es,>2. <f f,>8 <g d g,>~ |
 	<g d g,>4 <g d g,> g8 d16 g, r16 <g' d g,>8. |
+	c,8 <es' bes>4. f,8 <f' c>4. |
+	bes,8. bes'16~ bes8 <aes' f bes,>8~ <aes f bes,>4 bes,16 bes' bes,8 |
 	
+	es8 es' es, es' es, es' <f f,> <g d g,>~ |
+	<g d g,>4 <g d g,> g8 d16 g, r16 <g' d g,>8. |
+	c,8 c' c, c' c, c' c, c' |
+	d,8 d' d, d' e, e' d, d' |
+	
+	\key a \major
+	cis,8 cis' cis, cis' cis, cis' cis, cis' |
+	d,8 d' d, d' d, d' d, d' |
+	e,8 e' e, e' eis, eis' eis, eis' |
+	fis,8 fis' fis, fis' fis, fis' fis,16 cis' fis8 |
+	
+	b,8 b' b, b' b, b' b, b' |
+	cis,8 cis' cis, cis' cis, a'16 cis cis a' cis8 |
+	c1 |
+	b1 |
+	
+	\key e \minor
+	<e, b e,>2. <d d,>8 <c g c,>~ |
+	<c g c>2 \clef treble e'8 g e4 |
+	\clef bass <a,, e a,>2. <c c,>8 <d a d,>~ |
+	<d a d,>1 |
+	
+	<e b e,>2. <d d,>8 <c g c,>~ |
+	<c g c>2 \clef treble r8. g'16~ g8 e |
+	\clef bass <a,, e a,>2~ <a e a,>8 <c c,> <d a d,> r8 |
+	r1 |
+	
+	c,8 c'16 g c, g' c8 c,8 c'16 g c, g' c8 |
+	d,8 d'16 a d, a' d8 d,8 d'16 a c,8 c'16 g |
+	b,8 b'16 fis b, fis' b8 b,8 b'16 fis b, fis' b8 |
+	e,8 e'16 b e, b' e8 e,8 e'16 b e, b' e8 |
+	
+	a,,8 a'16 e a, e' a8 a,8 a'16 e a, e' a8 |
+	b,8 b'16 fis b, fis' b8 b,8 b'16 fis b, fis' b8 |
+	r8 <e e,>8~ <e e,> <dis dis,>~ <dis dis,> <dis dis,> dis,16 dis' dis,8 |
+	r8 d16 d' d,8 cis~ cis cis' cis,16 cis' cis, cis' |
+
+	c,8 c'16 g c, g' c8 c,8 c'16 g c, g' c8 |
+	d,8 d'16 a d, a' d8 d,8 d'16 a c,8 c'16 g |
+	b,8 b'16 fis b, fis' b8 b,8 b'16 fis b, fis' b8 |
+	e,8 e'16 b e, b' e8 e,8 e'16 b e, b' e8 |
+	
+	a,,8 a'16 e a, e' a8 a,8 a'16 e a, e' a8 |
+	cis,8 cis'16 a cis, a' cis8 cis,8 cis'16 a cis, a' cis8 |
+	d,8 d'16 a d, a' d8 d, d'16 a d, a' d8 |
+	d,8 d'16 a d, a' d8 d, d'16 a d, a' d8 |
+	
+	\key g \minor
+	<g, d g,>2. <f f,>8 <es bes es,>~ |
+	<es bes es,>1 |
+	<c g c,>2. <es es,>8 <f c f,>~ |
+	<f c f,>1 |
+
+	<g, d g,>2. <f f,>8 <es bes es,>~ |
+	<es bes es,>1 |
+	<c g c,>2. <es es,>8 <f c f,>~ |
+	<f c f,>1 |
+
 
       \bar "|."
 
