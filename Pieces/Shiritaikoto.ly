@@ -58,11 +58,11 @@
 	
 	g8. c,16~ c8 b c8. e16~ e8 a |
 	<g dis b>2 <c fis, dis>4. <c fis, dis>16 <b g e>~ |
-	<b g e>4. \clef bass fis,,,8~ fis g~ g e |
+	<b g e>4. \clef bass fis,8~ fis g~ g e |
 	g4 e8 <b' g e>~ <b g e> <a e>8~ <a e>16 <g e>16~ <g e>8 |
 	
 	\clef treble
-	<b'' e,>8. <e, c>16~ <e c>8 <d c> <e c>8. <b' e,>16~ <b e,>8 <c e,> |
+	<b' e,>8. <e, c>16~ <e c>8 <d c> <e c>8. <b' e,>16~ <b e,>8 <c e,> |
 	<b fis d>4. <a fis d>16 <a fis d>~ <a fis d>4 r4 |
 	<a d, b>8. d,16~ d8 b d8. <a' d,>16~ <a d,>8 <b d,> |
 	<a e b>8 <g e b>16 <g e b>~ <g e b>2 <b g e>8 <b g e> |
@@ -100,10 +100,10 @@
 
 	<es bes es,>2. <f f,>8 <g d g,>~ |
 	<g d g,>4 <g d g,> g8 d16 g, r16 <g' d g,>8. |
-	c,8 <es' bes>4. f,8 <f' c>4. |
-	bes,8. bes'16~ bes8 <aes' f bes,>8~ <aes f bes,>4 bes,16 bes' bes,8 |
+	c,,8 <es' bes>4. f,8 <f' c>4. |
+	bes,8. bes'16~ bes8 <aes f bes,>8~ <aes f bes,>4 bes,16 bes' bes,8 |
 	
-	es8 es' es, es' es, es' <f f,> <g d g,>~ |
+	es,8 es' es, es' es, es' <f f,> <g d g,>~ |
 	<g d g,>4 <g d g,> g8 d16 g, r16 <g' d g,>8. |
 	c,8 c' c, c' c, c' c, c' |
 	d,8 d' d, d' e, e' d, d' |
@@ -120,7 +120,7 @@
 	b1 |
 	
 	\key e \minor
-	<e, b e,>2. <d d,>8 <c g c,>~ |
+	<e,, b e,>2. <d d,>8 <c g c,>~ |
 	<c g c>2 \clef treble e'8 g e4 |
 	\clef bass <a,, e a,>2. <c c,>8 <d a d,>~ |
 	<d a d,>1 |
