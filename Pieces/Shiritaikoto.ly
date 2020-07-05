@@ -120,7 +120,7 @@
 	b1 |
 	
 	\key e \minor
-	<e,, b e,>2. <d d,>8 <c g c,>~ |
+	<e, b e,>2. <d d,>8 <c g c,>~ |
 	<c g c>2 \clef treble e'8 g e4 |
 	\clef bass <a,, e a,>2. <c c,>8 <d a d,>~ |
 	<d a d,>1 |
