@@ -247,8 +247,8 @@
 	d8 a' d d, d d, c' c, |
 	bes'8 f' bes a~ a a, e' d~ |
 	d8 a' d d, d d, c' c, |
-	bes'8 f' bes a~ a a, e' d~ |
-	d8 a' d d, d d, c' c, |
+	g'8 d' g a~ a a, e' d~ |
+	d8 a' d d, d d, c' c, \bar "||"
 
 	bes''8 r8 bes a~ a r8 e' d~ |
 	d8 r8 d8 r8 d,4( c) |
@@ -256,8 +256,8 @@
 	d8 r8 d8 r8 d,4( c) |
 	bes'8 r8 bes a~ a r8 e' d~ |
 	d8 r8 d8 r8 d,4( c) |
-	bes'8 r8 bes a~ a r8 e' d~ |
-	d8 r8 d8 r8 d,4( c) \bar "|."
+	g8 r8 bes' a~ a r8 e' d~ |
+	d8 r8 d bes,, d'4( c) \bar "|."
 
       }
     }
