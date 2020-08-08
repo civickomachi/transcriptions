@@ -31,8 +31,8 @@ print-page-number = ##f
 }
 
 
-\include "./Pieces/Kurutta_kajitsu.ly"
-\include "./Pieces/Shiritaikoto.ly"
+%\include "./Pieces/Kurutta_kajitsu.ly"
+%\include "./Pieces/Shiritaikoto.ly"
 \include "./Pieces/down_shout_leaf.ly"
 
 }
