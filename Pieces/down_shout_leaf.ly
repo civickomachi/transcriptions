@@ -67,13 +67,13 @@
 		<e c>8 d <e c> d <e c> f g <a d,>~ |
 		<a d,>8 f e d <a' f>4( <g e>) |
 		<f bes,>8 <f bes,> <g bes,> <d bes> f f g d |
-		<f d>8 <f d> <g d> <a d> f f g a |
+		<f d>8 <f d> <g d> <a d,> f f g a |
 		<bes f c>8 <bes f c> <a f c> <g c,> <f c> <e c> <f c> <g c,> |
 		r1 \bar "||"
 
 		<a f>8 \segno <bes g> <c a> <g e>~ <g e> <e c>~ <e c> <f d>~ |
 		<f d>8 <f d> <g e> <a f>~ <a f>4. f8 |
-		<f bes,>8 d <f bes,> d f f g <a f>~ |
+		<f bes,>8 d f d f f g <a f>~ |
 		<a f>8 <a f> bes <a e>~ <a e> <f d>~ <f d> f |
 		<c' d,>8 c d <g, e>~ <g e> <e c>~ <e c> <f d>~ |
 		<f d>8 f g <a f>~ <a f>4. <a f>8 |
@@ -82,13 +82,12 @@
 
 		<a' f>8 <bes g> <c a> <g e>~ <g e> <e c>~ <e c> <f d>~ |
 		<f d>8 <f d> <g e> <a f>~ <a f>4. f8 |
-		<f bes,>8 d <f bes,> d f f g <a f>~ |
+		<f bes,>8 d f d f f g <a f>~ |
 		<a f>8 <a f> bes <a e>~ <a e> <f d>~ <f d> f |
 		<c' d,>8 c d <g, e>~ <g e> <e c>~ <e c> <f d>~ |
 		<f d>8 f g <a f>~ <a f>4. <a f>8 |
 		<bes d,>8 c bes <a cis,>~ <a cis,> <g e>~ <g e> <f d>~ |
 		<f d> f g <d a>~ <d a>4. r8 \toCoda |
-
 	}
 
 	\alternative {
