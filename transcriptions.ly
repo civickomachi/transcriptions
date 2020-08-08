@@ -7,7 +7,7 @@ toSegno = {
   \override Score.RehearsalMark.direction = #DOWN 
   %prefered size, is about 1/3 smaller than normal
   \once \override Score.RehearsalMark.font-size = #-2
-  \mark \markup { { \lower #1 "D.S. al  " { \musicglyph #"scripts.segno"} } } 
+  \mark \markup { { \lower #1 "D.S. al Coda" } } 
 }
 toCoda = {
   % the align part
@@ -16,7 +16,7 @@ toCoda = {
   \override Score.RehearsalMark.direction = #DOWN
   %prefered size
   \once \override Score.RehearsalMark.font-size = #-2
-  \mark \markup { { \lower #1 "D.S. al  " { \musicglyph #"scripts.coda"} } } 
+  \mark \markup { { \lower #1 "To Coda" } } 
 }
 
 \book{

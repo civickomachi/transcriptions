@@ -71,7 +71,7 @@
 		<bes f c>8 <bes f c> <a f c> <g c,> <f c> <e c> <f c> <g c,> |
 		r1 \bar "||"
 
-		<a f>8 <bes g> <c a> <g e>~ <g e> <e cis>~ <e cis> <f d>~ |
+		<a f>8 \segno <bes g> <c a> <g e>~ <g e> <e cis>~ <e cis> <f d>~ |
 		<f d>8 <f d> <g e> <a f c>~ <a f c>4. <f bes,>8 |
 		<f bes,>8 d <f bes,> d <f cis a> f g <a f e>~ |
 		<a f e>8 <a f> bes <a d,>~ <a d,> <f c>~ <f c> f |
@@ -80,7 +80,7 @@
 		<bes d,>8 c bes <a cis,>~ <a cis,> <g e>~ <g e> <f d>~ |
 		<f d> f g <d a>~ <d a>4. r8 |
 	
-		<a' f>8 \segno <bes g> <c a> <g e>~ <g e> <e cis>~ <e cis> <f d>~ |
+		<a' f>8 <bes g> <c a> <g e>~ <g e> <e cis>~ <e cis> <f d>~ |
 		<f d>8 <f d> <g e> <a f c>~ <a f c>4. <f bes,>8 |
 		<f bes,>8 d <f bes,> d <f cis a> f g <a f e>~ |
 		<a f e>8 <a f> bes <a d,>~ <a d,> <f c>~ <f c> f |
@@ -100,10 +100,10 @@
 			d8 a d f e d c bes |
 			f8 bes d bes c g e' c |
 			d8 a d f e d c bes |
-			f8 bes d bes c g e' c \bar "||"
+			f8 bes d bes c g e' c |
 		}
 		{
-			<a' f d>8 g d <a' e c>~ <a e c> g c <a f>~ |
+			<a f d>8 g d <a' e c>~ <a e c> g c <a f>~ |
 			<a f>8 <g e> <a f> r8 \clef bass <a, f>4( <g e>) |
 			\clef treble <a' f d>8 g d <a' e c>~ <a e c> g c <a f>~ |
 			<a f>8 <g e> <a f> r8 \clef bass <a, f>4( <g e>) |
@@ -191,7 +191,7 @@
 		c'8 c, c' c, c' c, c' c, |
 		r2 r8 c16 g c,8 r8 \bar "||"
 
-		bes''8 \segno f' bes a~ a a, e' d |
+		bes''8 f' bes a~ a a, e' d |
 		d,8 a' d c, c' c, f f' |
 		bes,8 f' bes a~ a a, e' d |
 		d,8 a' d c, c' c, f f' |
@@ -207,7 +207,7 @@
 		bes,8 f' bes a~ a a, e' d |
 		d,8 a' d c, c' c, f f' |
 		g,8 d' g a~ a a, e' d |
-		d,8 a' d a d, d' d, d' \toCoda \bar "||"
+		d,8 a' d a d, d' d, d' \bar "||"
 	}
 	\alternative {
 		{
@@ -218,10 +218,10 @@
 			d,8 d' <a' f>4( <g e>8 <f d>) r8 bes,, |
 			bes'8 r8 <f' d>8 r8 c, c' <g' e> r8 |
 			d,8 d' <a' f>4( <g e>8 <f d>) r8 bes,, |
-			bes'8 r8 <f' d>8 r8 c, c' <g' e> r8 \bar "||"
+			bes'8 r8 <f' d>8 r8 c, c' <g' e> r8 |
 		}
 		{
-			bes8 f' bes a~ a a, e' d~ |
+			bes,8 f' bes a~ a a, e' d~ |
 			d8 a' d d, d d, c' c, |
 			bes'8 f' bes a~ a a, e' d~ |
 			d8 a' d d, d d, c' c, |
@@ -237,11 +237,11 @@
 			bes,,8 bes' bes, bes' a, a' a, a' |
 			d,8 d' d, d' c, c' f, f' |
 			bes,,8 bes' bes, bes' a, a' a, a' |
-			d,8 d' d, d' c, c' f, f' \toSegno \bar "||"
+			d,8 d' d, d' c, c' f, f' \bar "||"
 		}
 	}
 	
-	bes,8 \coda f' bes a~ a a, e' d~ |
+	bes,8 f' bes a~ a a, e' d~ |
 	d8 a' d d, d d, c' c, |
 	bes'8 f' bes a~ a a, e' d~ |
 	d8 a' d d, d d, c' c, |
