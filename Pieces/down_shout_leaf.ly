@@ -66,28 +66,28 @@
 		<f c>8 <f c> <g c,> <d c> r8 d d f |
 		<e c>8 d <e c> d <e c> f g <a d,>~ |
 		<a d,>8 f e d <a' f>4( <g e>) |
-		<f d>8 <f d> <g d> d f f g d |
-		<f bes,>8 <f bes,> <g bes,> <d bes> f f g a |
+		<f bes,>8 <f bes,> <g bes,> <d bes> f f g d |
+		<f d>8 <f d> <g d> <a d> f f g a |
 		<bes f c>8 <bes f c> <a f c> <g c,> <f c> <e c> <f c> <g c,> |
 		r1 \bar "||"
 
-		<a f>8 \segno <bes g> <c a> <g e>~ <g e> <e cis>~ <e cis> <f d>~ |
-		<f d>8 <f d> <g e> <a f c>~ <a f c>4. <f bes,>8 |
-		<f bes,>8 d <f bes,> d <f cis a> f g <a f e>~ |
-		<a f e>8 <a f> bes <a d,>~ <a d,> <f c>~ <f c> f |
-		<c' d,>8 c d <g, cis, bes>~ <g cis, bes> <e cis a>~ <e cis a> <f c>~ |
-		<f c>8 f g <a es c>~ <a es c>4. <a f>8 |
+		<a f>8 \segno <bes g> <c a> <g e>~ <g e> <e c>~ <e c> <f d>~ |
+		<f d>8 <f d> <g e> <a f>~ <a f>4. f8 |
+		<f bes,>8 d <f bes,> d f f g <a f>~ |
+		<a f>8 <a f> bes <a e>~ <a e> <f d>~ <f d> f |
+		<c' d,>8 c d <g, e>~ <g e> <e c>~ <e c> <f d>~ |
+		<f d>8 f g <a f>~ <a f>4. <a f>8 |
 		<bes d,>8 c bes <a cis,>~ <a cis,> <g e>~ <g e> <f d>~ |
 		<f d> f g <d a>~ <d a>4. r8 |
-	
-		<a' f>8 <bes g> <c a> <g e>~ <g e> <e cis>~ <e cis> <f d>~ |
-		<f d>8 <f d> <g e> <a f c>~ <a f c>4. <f bes,>8 |
-		<f bes,>8 d <f bes,> d <f cis a> f g <a f e>~ |
-		<a f e>8 <a f> bes <a d,>~ <a d,> <f c>~ <f c> f |
-		<c' d,>8 c d <g, cis, bes>~ <g cis, bes> <e cis a>~ <e cis a> <f c>~ |
-		<f c>8 f g <a es c>~ <a es c>4. <a f>8 |
+
+		<a' f>8 <bes g> <c a> <g e>~ <g e> <e c>~ <e c> <f d>~ |
+		<f d>8 <f d> <g e> <a f>~ <a f>4. f8 |
+		<f bes,>8 d <f bes,> d f f g <a f>~ |
+		<a f>8 <a f> bes <a e>~ <a e> <f d>~ <f d> f |
+		<c' d,>8 c d <g, e>~ <g e> <e c>~ <e c> <f d>~ |
+		<f d>8 f g <a f>~ <a f>4. <a f>8 |
 		<bes d,>8 c bes <a cis,>~ <a cis,> <g e>~ <g e> <f d>~ |
-		<f d> f g <d a>~ <d a>4. r8 \toCoda \bar "||"
+		<f d> f g <d a>~ <d a>4. r8 \toCoda |
 
 	}
 
@@ -110,12 +110,12 @@
 			\clef treble <a' f d>8 g d <a' e c>~ <a e c> g c <a f>~ |
 			<a f>8 <g e> <a f> r8 \clef bass <a, f>4( <g e>) |
 			\clef treble <a' f d>8 g d <a' e c>~ <a e c> g c <a f>~ |
-			<a f>8 <g e> <a f> r8 a,16 d f a d r16 <f f,>8 \bar "||"
+			<a f>8 <g e> <a f> r8 r4. <f' f,>8 \bar "||"
 
 			<e e,>8 <d d,> <c c,> <d d,>~ <d d,> <c c,> <a a,> <g e c>~ |
 			<g e c>8. gis16 <a f e>2 r8 g16 a |
-			<c f, d>8 bes a g16 a <g cis, bes>8 f d <f c a>~ |
-			<f c a>16 g <a f d c>8~ a16 g16 f g16~ g8 f8 g4 |
+			<c f, d>8 bes a g16 a <g c,>8 f d <f c>~ |
+			<f c>16 g <a f c>8~ <a f c>16 g16 f g16~ g8 f8 g4 |
 			c,8 d f g f16 g a8 g c~ |
 			c8 a c f~ f e c d~ |
 			d8 c g c~ c g f g~ |
@@ -227,7 +227,7 @@
 			d8 a' d d, d d, c' c, |
 			bes'8 f' bes a~ a a, e' d~ |
 			d8 a' d d, d d, c' c, |
-			bes'8 f' bes a~ a a, e' d~ |
+			g'8 d' g a~ a a, e' d~ |
 			d8 a' d d, d d, c' c, \bar "||"
 
 			bes8 bes' bes, bes' a, a' a, a' |
@@ -236,7 +236,7 @@
 			d,8 d' d, d' c, c' f, f' |
 			bes,,8 bes' bes, bes' a, a' a, a' |
 			d,8 d' d, d' c, c' f, f' |
-			bes,,8 bes' bes, bes' a, a' a, a' |
+			g,,8 g' g, g' a, a' a, a' |
 			d,8 d' d, d' c, c' f, f' \bar "||"
 		}
 	}
