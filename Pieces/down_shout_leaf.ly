@@ -247,40 +247,40 @@
 	d8 d' d, c d f d g, |
 	g'8 g, bes g a a' c, a |
 
+	d8 d' d, d' d, d' d, d' |
+	g,8 g' g, g' a, a' c, c' |
 	d,8 d' d, d' d, d' d, d' |
-	bes,8 bes' bes, bes' c, c' c, c' |
+	g,8 g' g, g' a, a' c, c' |
 	d,8 d' d, d' d, d' d, d' |
-	bes,8 bes' bes, bes' c, c' c, c' |
+	g,8 g' g, g' a, a' c, c' |
 	d,8 d' d, d' d, d' d, d' |
-	bes,8 bes' bes, bes' c, c' c, c' |
-	d,8 d' d, d' d, d' d, d' |
-	bes,8 bes' bes, bes' c, c' c, c' \bar "||"
+	g,8 g' g, g' a, a' c, c' \bar "||"
 
-	<bes bes,>8 <bes bes,> r4 <a' f>8 <a f> r4 |
+	<bes bes,>8 <bes bes,> r4 <f' d>8 <f d> r4 |
 	<f, f,>8 <f f,> r4 <a' f>8 <a f> r4 |
-	<c, c,>8 <c c,> r4 <bes' g>8 <bes g> r4 |
+	<c, c,>8 <c c,> r4 <g' e>8 <g e> r4 |
 	<d, d,>8 <d d,> r4 d8 d, c' c, |
-	bes'8 bes, bes' bes, bes' bes, bes' bes, |
 	g'8 g, g' g, g' g, g' g, |
+	bes'8 bes, bes' bes, bes' bes, bes' bes, |
 	c'8 c, c' c, c' c, c' c, |
 	r2 r8 c16 g c,8 r8 \bar "||"
 
 	bes''8 f' bes a~ a a, e' d |
-	d,8 a' d f, c' f c, c' |
+	d,8 a' d c, c' c, f f' |
 	bes8 f' bes a~ a a, e' d |
-	d,8 a' d f, c' f c, c' |
+	d,8 a' d c, c' c, f c' |
 	bes8 f' bes a~ a a, e' d |
-	d,8 a' d c, g' c f, f' |
-	bes,8 f' bes a~ a a, e' d |
+	d,8 a' d c, c' c, f f' |
+	g,8 d' g a~ a a, e' d |
 	d,8 a' d a d, d' d, d' |
 	
 	bes,8 f' bes a~ a a, e' d |
-	d,8 a' d f, c' f c, c' |
+	d,8 a' d c, c' c, f f' |
 	bes8 f' bes a~ a a, e' d |
-	d,8 a' d f, c' f c, c' |
+	d,8 a' d c, c' c, f f' |
 	bes8 f' bes a~ a a, e' d |
-	d,8 a' d c, g' c f, f' |
-	bes,8 f' bes a~ a a, e' d |
+	d,8 a' d c, c' c, f f' |
+	g,8 d' g a~ a a, e' d |
 	d,8 a' d a d, d' d, d' \bar "||"
 
 	d8 d' <a' f>4( <g e>8 <f d>) r8 bes,, |
