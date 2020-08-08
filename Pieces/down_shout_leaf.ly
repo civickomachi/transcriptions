@@ -1,6 +1,9 @@
 \version "2.18.2"
 % 2020.07.10 - 
 
+
+\score{
+
 toSegno = {
   % the align part, to the right, and below staff
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT 
@@ -20,9 +23,7 @@ toCoda = {
   \mark \markup { { \lower #1 "D.S. al  " { \musicglyph #"scripts.coda"} } } 
 }
 
-
-\score{
-  \new PianoStaff <<
+\new PianoStaff <<
     \new Staff = "up" {
       \clef treble
       \key d \minor
