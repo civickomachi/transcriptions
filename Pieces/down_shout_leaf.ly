@@ -259,7 +259,7 @@
 	<bes bes,>8 <bes bes,> r4 <f' d>8 <f d> r4 |
 	<f, f,>8 <f f,> r4 <a' f>8 <a f> r4 |
 	<c, c,>8 <c c,> r4 <g' e>8 <g e> r4 |
-	<d, d,>8 <d d,> r4 d8 d, c' c, |
+	<d d,>8 <d d,> r4 d8 d, c' c, |
 	g'8 g, g' g, g' g, g' g, |
 	bes'8 bes, bes' bes, bes' bes, bes' bes, |
 	c'8 c, c' c, c' c, c' c, |
