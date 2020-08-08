@@ -3,26 +3,6 @@
 
 
 \score{
-
-toSegno = {
-  % the align part, to the right, and below staff
-  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT 
-  \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-  \override Score.RehearsalMark.direction = #DOWN 
-  %prefered size, is about 1/3 smaller than normal
-  \once \override Score.RehearsalMark.font-size = #-2
-  \mark \markup { { \lower #1 "D.S. al  " { \musicglyph #"scripts.segno"} } } 
-}
-toCoda = {
-  % the align part
-  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT  
-  \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-  \override Score.RehearsalMark.direction = #DOWN
-  %prefered size
-  \once \override Score.RehearsalMark.font-size = #-2
-  \mark \markup { { \lower #1 "D.S. al  " { \musicglyph #"scripts.coda"} } } 
-}
-
 \new PianoStaff <<
     \new Staff = "up" {
       \clef treble
@@ -108,40 +88,41 @@ toCoda = {
 		<f c>8 f g <a es c>~ <a es c>4. <a f>8 |
 		<bes d,>8 c bes <a cis,>~ <a cis,> <g e>~ <g e> <f d>~ |
 		<f d> f g <d a>~ <d a>4. r8 \toCoda \bar "||"
-	
-		\alternative {
-			{
-				d'8 a d f e d c bes |
-				f8 bes d bes c g e' c |
-				d8 a d f e d c bes |
-				f8 bes d bes c g e' c |
-				d8 a d f e d c bes |
-				f8 bes d bes c g e' c |
-				d8 a d f e d c bes |
-				f8 bes d bes c g e' c \bar "||"
-			}
-			{
-				<a' f d>8 g d <a' e c>~ <a e c> g c <a f>~ |
-				<a f>8 <g e> <a f> r8 \clef bass <a, f>4( <g e>) |
-				\clef treble <a' f d>8 g d <a' e c>~ <a e c> g c <a f>~ |
-				<a f>8 <g e> <a f> r8 \clef bass <a, f>4( <g e>) |
-				\clef treble <a' f d>8 g d <a' e c>~ <a e c> g c <a f>~ |
-				<a f>8 <g e> <a f> r8 \clef bass <a, f>4( <g e>) |
-				\clef treble <a' f d>8 g d <a' e c>~ <a e c> g c <a f>~ |
-				<a f>8 <g e> <a f> r8 a,16 d f a d r16 <f f,>8 \bar "||"
 
-				<e e,>8 <d d,> <c c,> <d d,> <c c,> <a a,> <g g,> <g e c>~ |
-				<g e c>8 c <a f e>2 r8 g16 a |
-				<c f, d>8 bes a <g cis, bes>~ <g cis, bes> f d <f c a>~ |
-				<f c a> g <a f d c>2 r8 c,16 d |
-				<f bes,>8 d f <g cis, bes>~ <g cis, bes> f g <a f e>~ |
-				<a f e>8 a c <f a,>~ <f a,> e c <d a f>~ |
-				<d a f> a aes <g cis, bes>~ <g cis, bes> f e <d c a>~ |
-				<d c a>2. r4 \toSegno \bar "||"
-			}
+	}
+
+	\alternative {
+		{
+			d'8 a d f e d c bes |
+			f8 bes d bes c g e' c |
+			d8 a d f e d c bes |
+			f8 bes d bes c g e' c |
+			d8 a d f e d c bes |
+			f8 bes d bes c g e' c |
+			d8 a d f e d c bes |
+			f8 bes d bes c g e' c \bar "||"
+		}
+		{
+			<a' f d>8 g d <a' e c>~ <a e c> g c <a f>~ |
+			<a f>8 <g e> <a f> r8 \clef bass <a, f>4( <g e>) |
+			\clef treble <a' f d>8 g d <a' e c>~ <a e c> g c <a f>~ |
+			<a f>8 <g e> <a f> r8 \clef bass <a, f>4( <g e>) |
+			\clef treble <a' f d>8 g d <a' e c>~ <a e c> g c <a f>~ |
+			<a f>8 <g e> <a f> r8 \clef bass <a, f>4( <g e>) |
+			\clef treble <a' f d>8 g d <a' e c>~ <a e c> g c <a f>~ |
+			<a f>8 <g e> <a f> r8 a,16 d f a d r16 <f f,>8 \bar "||"
+
+			<e e,>8 <d d,> <c c,> <d d,> <c c,> <a a,> <g g,> <g e c>~ |
+			<g e c>8 c <a f e>2 r8 g16 a |
+			<c f, d>8 bes a <g cis, bes>~ <g cis, bes> f d <f c a>~ |
+			<f c a> g <a f d c>2 r8 c,16 d |
+			<f bes,>8 d f <g cis, bes>~ <g cis, bes> f g <a f e>~ |
+			<a f e>8 a c <f a,>~ <f a,> e c <d a f>~ |
+			<d a f> a aes <g cis, bes>~ <g cis, bes> f e <d c a>~ |
+			<d c a>2. r4 \toSegno \bar "||"
 		}
 	}
-	
+		
 	\clef treble <a' f d>8 \coda g d <a' e c>~ <a e c> g c <a f>~ |
 	<a f>8 <g e> <a f> r8 \clef bass <a, f>4( <g e>) |
 	\clef treble <a' f d>8 g d <a' e c>~ <a e c> g c <a f>~ |
@@ -227,37 +208,36 @@ toCoda = {
 		d,8 a' d c, c' c, f f' |
 		g,8 d' g a~ a a, e' d |
 		d,8 a' d a d, d' d, d' \toCoda \bar "||"
+	}
+	\alternative {
+		{
+			d,8 d' <a' f>4( <g e>8 <f d>) r8 bes,, |
+			bes'8 r8 <f' d>8 r8 c, c' <g' e> r8 |
+			d,8 d' <a' f>4( <g e>8 <f d>) r8 bes,, |
+			bes'8 r8 <f' d>8 r8 c, c' <g' e> r8 |
+			d,8 d' <a' f>4( <g e>8 <f d>) r8 bes,, |
+			bes'8 r8 <f' d>8 r8 c, c' <g' e> r8 |
+			d,8 d' <a' f>4( <g e>8 <f d>) r8 bes,, |
+			bes'8 r8 <f' d>8 r8 c, c' <g' e> r8 \bar "||"
+		}
+		{
+			bes8 f' bes a~ a a, e' d~ |
+			d8 a' d d, d d, c' c, |
+			bes'8 f' bes a~ a a, e' d~ |
+			d8 a' d d, d d, c' c, |
+			bes'8 f' bes a~ a a, e' d~ |
+			d8 a' d d, d d, c' c, |
+			bes'8 f' bes a~ a a, e' d~ |
+			d8 a' d d, d d, c' c, \bar "||"
 
-		\alternative {
-			{
-				d,8 d' <a' f>4( <g e>8 <f d>) r8 bes,, |
-				bes'8 r8 <f' d>8 r8 c, c' <g' e> r8 |
-				d,8 d' <a' f>4( <g e>8 <f d>) r8 bes,, |
-				bes'8 r8 <f' d>8 r8 c, c' <g' e> r8 |
-				d,8 d' <a' f>4( <g e>8 <f d>) r8 bes,, |
-				bes'8 r8 <f' d>8 r8 c, c' <g' e> r8 |
-				d,8 d' <a' f>4( <g e>8 <f d>) r8 bes,, |
-				bes'8 r8 <f' d>8 r8 c, c' <g' e> r8 \bar "||"
-			}
-			{
-				bes8 f' bes a~ a a, e' d~ |
-				d8 a' d d, d d, c' c, |
-				bes'8 f' bes a~ a a, e' d~ |
-				d8 a' d d, d d, c' c, |
-				bes'8 f' bes a~ a a, e' d~ |
-				d8 a' d d, d d, c' c, |
-				bes'8 f' bes a~ a a, e' d~ |
-				d8 a' d d, d d, c' c, \bar "||"
-
-				bes8 bes' bes, bes' a, a' a, a' |
-				d,8 d' d, d' c, c' f, f' |
-				bes,,8 bes' bes, bes' a, a' a, a' |
-				d,8 d' d, d' c, c' f, f' |
-				bes,,8 bes' bes, bes' a, a' a, a' |
-				d,8 d' d, d' c, c' f, f' |
-				bes,,8 bes' bes, bes' a, a' a, a' |
-				d,8 d' d, d' c, c' f, f' \toSegno \bar "||"
-			}
+			bes8 bes' bes, bes' a, a' a, a' |
+			d,8 d' d, d' c, c' f, f' |
+			bes,,8 bes' bes, bes' a, a' a, a' |
+			d,8 d' d, d' c, c' f, f' |
+			bes,,8 bes' bes, bes' a, a' a, a' |
+			d,8 d' d, d' c, c' f, f' |
+			bes,,8 bes' bes, bes' a, a' a, a' |
+			d,8 d' d, d' c, c' f, f' \toSegno \bar "||"
 		}
 	}
 	
