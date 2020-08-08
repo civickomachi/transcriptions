@@ -235,17 +235,17 @@
 	d8 r8 d8 r8 d,4( c) |
 	bes8 f' bes a~ a a, e' d~ |
 	d8 a' d d, d d, c' c, |
-	bes'8 f' bes a~ a a, e' d~ |
+	g8 d' g a~ a a, e' d~ |
 	d8 a' d d, d d, c' c, \bar "||"
 	
-	d8 d' d, d' d, d' d, d' |
-	bes,8 bes' bes, bes' c, c' c, c' |
-	d,8 d' d, d' d, d' d, d' |
-	bes,8 bes' bes, bes' c, c' c, c' |
-	d,8 d' d, d' d, d' d, d' |
-	bes,8 bes' bes, bes' c, c' c, c' |
-	d,8 d' d, d' d, d' d, d' |
-	bes,8 bes' bes, bes' c, c' c, c' |
+	d8 d' d, c d f d g, |
+	g'8 g, bes g a a' a, c' |
+	d8 d' d, c d f d g, |
+	g'8 g, bes g a a' a, c' |
+	d8 d' d, c d f d g, |
+	g'8 g, bes g a a' a, c' |
+	d8 d' d, c d f d g, |
+	g'8 g, bes g a a' a, c' |
 
 	d,8 d' d, d' d, d' d, d' |
 	bes,8 bes' bes, bes' c, c' c, c' |
