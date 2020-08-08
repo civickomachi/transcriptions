@@ -19,7 +19,7 @@
 	\clef treble <a' f d>8 g d <a' e c>~ <a e c> g c <a f>~ |
 	<a f>8 <g e> <a f> r8 \clef bass <a, f>4( <g e>) |
 	\clef treble <a' f d>8 g d <a' e c>~ <a e c> g c <a f>~ |
-	<a f>8 <g e> <a f> r8 \clef bass <a, f>4( <g e>) \bar "||"
+	<a f>8 <g e> <a f> r8 \clef bass <a, f>4( <g e>) |
 
 	\repeat volta 2 {
 		\clef treble
@@ -114,10 +114,10 @@
 			<e e,>8 <d d,> <c c,> <d d,>~ <d d,> <c c,> <a a,> <g e c>~ |
 			<g e c>8. gis16 <a f e>2 r8 g16 a |
 			<c f, d>8 bes a g16 a <g c,>8 f d <f c>~ |
-			<f c>16 g <a f c>8~ <a f c>16 g16 f g16~ g8 f8 g4 |
-			c,8 d f g f16 g a8 g c~ |
-			c8 a c f~ f e c d~ |
-			d8 c g c~ c g f g~ |
+			<f c>16 g <a f c>8~ <a f c>16 g16 f g16~ g8 f8 <g e c>4 |
+			c,8 d f <g e c> f16 g a8 g <c a f e>~ |
+			<c a f e>8 a c <f a,>~ <f a,> e c <d a f>~ |
+			<d a f>8 c g <c f, des>~ <c f, des> g f g~ |
 			g8 f e d~ d4 r4 \toSegno \bar "||"
 		}
 	}
@@ -160,7 +160,7 @@
 	bes8 f' bes a~ a a, e' d~ |
 	d8 a' d d, d d, c' c, |
 	g'8 d' g a~ a a, e' d~ |
-	d8 a' d d, d d, c' c, \bar "||"
+	d8 a' d d, d d, c' c, |
 	
 	\repeat volta 2 {
 		d8 d' d, c d f d g, |
