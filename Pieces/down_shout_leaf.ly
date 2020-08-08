@@ -112,14 +112,14 @@
 			\clef treble <a' f d>8 g d <a' e c>~ <a e c> g c <a f>~ |
 			<a f>8 <g e> <a f> r8 a,16 d f a d r16 <f f,>8 \bar "||"
 
-			<e e,>8 <d d,> <c c,> <d d,> <c c,> <a a,> <g g,> <g e c>~ |
-			<g e c>8 c <a f e>2 r8 g16 a |
-			<c f, d>8 bes a <g cis, bes>~ <g cis, bes> f d <f c a>~ |
-			<f c a> g <a f d c>2 r8 c,16 d |
-			<f bes,>8 d f <g cis, bes>~ <g cis, bes> f g <a f e>~ |
-			<a f e>8 a c <f a,>~ <f a,> e c <d a f>~ |
-			<d a f> a aes <g cis, bes>~ <g cis, bes> f e <d c a>~ |
-			<d c a>2. r4 \toSegno \bar "||"
+			<e e,>8 <d d,> <c c,> <d d,>~ <d d,> <c c,> <a a,> <g e c>~ |
+			<g e c>8. gis16 <a f e>2 r8 g16 a |
+			<c f, d>8 bes a g16 a <g cis, bes>8 f d <f c a>~ |
+			<f c a>16 g <a f d c>8~ a16 g16 f g16~ g8 f8 g4 |
+			c,8 d f g f16 g a8 g c~ |
+			c8 a c f~ f e c d~ |
+			d8 c g c~ c g f g~ |
+			g8 f e d~ d4 r4 \toSegno \bar "||"
 		}
 	}
 		
