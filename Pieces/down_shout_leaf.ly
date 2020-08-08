@@ -248,13 +248,13 @@
 	g'8 g, bes g a a' c, a |
 
 	d8 d' d, d' d, d' d, d' |
-	g,8 g' g, g' a, a' c, c' |
+	g,,8 g' g, g' a, a' c, c' |
 	d,8 d' d, d' d, d' d, d' |
-	g,8 g' g, g' a, a' c, c' |
+	g,,8 g' g, g' a, a' c, c' |
 	d,8 d' d, d' d, d' d, d' |
-	g,8 g' g, g' a, a' c, c' |
+	g,,8 g' g, g' a, a' c, c' |
 	d,8 d' d, d' d, d' d, d' |
-	g,8 g' g, g' a, a' c, c' \bar "||"
+	g,,8 g' g, g' a, a' c, c' \bar "||"
 
 	<bes bes,>8 <bes bes,> r4 <f' d>8 <f d> r4 |
 	<f, f,>8 <f f,> r4 <a' f>8 <a f> r4 |
