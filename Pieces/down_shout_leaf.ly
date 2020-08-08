@@ -268,10 +268,10 @@
 	bes''8 f' bes a~ a a, e' d |
 	d,8 a' d c, c' c, f f' |
 	bes,8 f' bes a~ a a, e' d |
-	d,8 a' d c, c' c, f c' |
+	d,8 a' d c, c' c, f f' |
 	bes,8 f' bes a~ a a, e' d |
 	d,8 a' d c, c' c, f f' |
-	g,,8 d' g a~ a a, e' d |
+	g,8 d' g a~ a a, e' d |
 	d,8 a' d a d, d' d, d' |
 	
 	bes8 f' bes a~ a a, e' d |
@@ -280,7 +280,7 @@
 	d,8 a' d c, c' c, f f' |
 	bes,8 f' bes a~ a a, e' d |
 	d,8 a' d c, c' c, f f' |
-	g,,8 d' g a~ a a, e' d |
+	g,8 d' g a~ a a, e' d |
 	d,8 a' d a d, d' d, d' \bar "||"
 
 	d,8 d' <a' f>4( <g e>8 <f d>) r8 bes,, |
