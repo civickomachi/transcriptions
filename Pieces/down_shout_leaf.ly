@@ -118,7 +118,7 @@
 			c,8 d f <g e c> f16 g a8 g <c a f e>~ |
 			<c a f e>8 a c <f a,>~ <f a,> e c <d a f>~ |
 			<d a f>8 c g <c f, des>~ <c f, des> g f <g d a>~ |
-			<g d a>8 f e <d c a>~ <d c a>4 r4 \toSegno \bar "||"
+			<g d a>8 f e <d c a>~ <d c a>4 r4 \toSegno \bar "|."
 		}
 	}
 		
@@ -236,7 +236,7 @@
 			bes,,8 bes' bes, bes' a, a' a, a' |
 			d,8 d' d, d' c, c' f, f' |
 			g,,8 g' g, g' a, a' a, a' |
-			d,8 d' d, d' c, c' f, f' \bar "||"
+			d,8 d' d, d' c, c' f, f' \bar "|."
 		}
 	}
 	
