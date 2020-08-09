@@ -117,8 +117,8 @@
 			<f c>16 g <a f c>8~ <a f c>16 g16 f g16~ g8 f8 <g e c>4 |
 			c,8 d f <g e c> f16 g a8 g <c a f e>~ |
 			<c a f e>8 a c <f a,>~ <f a,> e c <d a f>~ |
-			<d a f>8 c g <c f, des>~ <c f, des> g f g~ |
-			g8 f e d~ d4 r4 \toSegno \bar "||"
+			<d a f>8 c g <c f, des>~ <c f, des> g f <g d a>~ |
+			<g d a>8 f e <d c a>~ <d c a>4 r4 \toSegno \bar "||"
 		}
 	}
 		
